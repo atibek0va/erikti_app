@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    android:background="#FDEED2">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="65dp"-->
+<!--        android:background="#58828A"-->
+<!--        android:layout_marginBottom="25dp">-->
+<!--        -->
+<!--        <Button-->
+<!--            android:id="@+id/btnBack"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="#FDEED2"-->
+<!--            android:backgroundTint="#00000000"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="artqa" -->
+<!--            android:textAlignment="textStart"-->
+<!--            android:textSize="20dp"-->
+<!--            android:gravity="start"-->
+<!--            android:layout_marginTop="5dp"/>-->
+
+<!--    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="50dp">
+
+        <ImageButton
+            android:id="@+id/btnAdam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:layout_marginRight="40dp"
+            app:srcCompat="@drawable/adam"/>
+
+        <ImageButton
+            android:id="@+id/btnJanuar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:layout_marginLeft="40dp"
+            app:srcCompat="@drawable/animal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Adamdarga komek"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textColor="#395960"/>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Januarlarga komek"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textColor="#395960"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <ImageButton
+            android:id="@+id/btnElka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:layout_marginRight="40dp"
+            app:srcCompat="@drawable/elka" />
+
+        <ImageButton
+            android:id="@+id/btnBasqa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:layout_marginLeft="40dp"
+            app:srcCompat="@drawable/basqa" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="160dp">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tabigatqa komek"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textColor="#395960"/>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Volonterlyq usynystar"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textColor="#395960"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#58828A"
+        >
+        <ImageButton
+            android:id="@+id/btnNews"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            app:srcCompat="@drawable/ic_newss"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/btnMap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#395960"
+            app:srcCompat="@drawable/ic_mapp"
+            tools:ignore="VectorDrawableCompat"
+            android:layout_gravity="center"
+            />
+
+        <ImageButton
+            android:id="@+id/btnUser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            app:srcCompat="@drawable/ic_accc"
+            tools:ignore="VectorDrawableCompat" />
+    </LinearLayout>
+</LinearLayout>
