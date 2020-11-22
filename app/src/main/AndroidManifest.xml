@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.App_erikti">
-        <activity android:name=".tabigat"></activity>
+        <activity android:name=".tirkelu"></activity>
+        <activity android:name=".tabigat" />
         <activity android:name=".januar" />
         <activity android:name=".komek" />
         <activity android:name=".mapPage" />
